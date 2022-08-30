@@ -176,7 +176,7 @@ class MainActivity : AppCompatActivity() {
                             t: Throwable
                     ) {
                         t.printStackTrace()
-                        showError()
+                        
                     }
 
                     override fun onResponse(
@@ -221,7 +221,7 @@ class MainActivity : AppCompatActivity() {
                             t: Throwable
                     ) {
                         t.printStackTrace()
-                        showError()
+                        
                     }
 
                     override fun onResponse(
